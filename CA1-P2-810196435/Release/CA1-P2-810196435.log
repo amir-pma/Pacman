@@ -1,0 +1,21 @@
+﻿Build started 12/7/2017 11:03:03 PM.
+     1>Project "C:\Users\SM T\Desktop\CA1-P2-810196435\CA1-P2-810196435\CA1-P2-810196435.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "CA1-P2-810196435.cpp" Header.cpp
+         CA1-P2-810196435.cpp
+         Header.cpp
+     1>Header.cpp(363): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 Header.cpp(214) : definition of 'i' ignored
+                 Header.cpp(171) : definition of 'i' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SM T\Desktop\CA1-P2-810196435\Release\CA1-P2-810196435.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SM T\Desktop\CA1-P2-810196435\Release\CA1-P2-810196435.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SM T\Desktop\CA1-P2-810196435\Release\CA1-P2-810196435.lib" /MACHINE:X86 /SAFESEH "Release\CA1-P2-810196435.obj"
+         Release\Header.obj
+         Generating code
+     1>c:\users\sm t\desktop\ca1-p2-810196435\ca1-p2-810196435\header.cpp(595): warning C4715: 'closefinder' : not all control paths return a value
+         Finished generating code
+         CA1-P2-810196435.vcxproj -> C:\Users\SM T\Desktop\CA1-P2-810196435\Release\CA1-P2-810196435.exe
+     1>Done Building Project "C:\Users\SM T\Desktop\CA1-P2-810196435\CA1-P2-810196435\CA1-P2-810196435.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.35
